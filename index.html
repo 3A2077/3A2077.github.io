@@ -7,7 +7,6 @@
 <link href="./files/slider.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-
 <script type="text/javascript" src="./files/jquery.mlens-1.0.min.js"></script> 
 <script type="text/javascript" src="./files/jquery.js"></script>
 <script src="./files/util.js" content="text/javascript"></script>
@@ -88,7 +87,7 @@
         </div>
 
 <div class="content">
-  <h1>High-quality Game Generation</h1>
+  <h1>High-quality Game Content Generation</h1>
 
   <div class="controls" data-group="1">
     <p style="font-size: 1.25em" class="serif"><b style="font-size: 1.3em;">Character Generation &nbsp;</b>
@@ -356,7 +355,6 @@
   </div>
 </div>
 
-
 <div class="row" data-group="4">
   <div class="col-gallery">
       <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
@@ -390,7 +388,6 @@
       <p style="text-align: center; margin-top: 0; width: 100%;">Tornado</p>
   </div>
 </div>
-
 
 <div class="controls" data-group="5">
     <p style="font-size: 1.25em" class="serif"><b style="font-size: 1.3em;">Open-domain Generation &nbsp;</b>
@@ -555,7 +552,6 @@
     </div>
 </div>
 
-
 <div class="controls" data-group="13">
     <p style="font-size: 1.25em" class="serif"><b style="font-size: 1.3em;">Video Prompts &nbsp;</b>
     <button onclick="playGroup(13)" title="Play Group 13"><i class="fas fa-play"></i></button> &nbsp;
@@ -604,47 +600,88 @@
     <h1>Qualitative Comparision</h1>
   
     <div class="controls" data-group="31">
-      <p style="font-size: 1.25em" class="serif"><b style="font-size: 1.3em;">Generation Comparision &nbsp;</b>
-      <button onclick="playGroup(31)" title="Play Group 31"><i class="fas fa-play"></i></button> &nbsp;
-      <button onclick="pauseGroup(31)" title="Pause Group 31"><i class="fas fa-pause"></i></button>
-      </p>
-  </div>
-  
-    <div class="row" data-group="31">
-      <div class="col-gallery">
-          <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
-              <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/media19.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-          </video>
-          <p style="text-align: center; margin-top: 0; width: 100%;">GameGen-X</p>
-      </div>
-    
-      <div class="col-gallery" style="margin-right: 1%;">
-          <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
-              <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/media16.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-          </video>
-          <p style="text-align: center; margin-top: 0; width: 100%;">OpenSora-Plan</p>
-      </div>
-    
-      <div class="col-gallery">
-          <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
-            <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/media14.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <p style="text-align: center; margin-top: 0; width: 100%;">OpenSora</p>
-      </div>
-    
-      <div class="col-gallery">
-          <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
-            <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/media13.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <p style="text-align: center; margin-top: 0; width: 100%;">CogVideoX</p>
-      </div>
+        <p style="font-size: 1.25em" class="serif"><b style="font-size: 1.3em;">In-domain Generation Comparision &nbsp;</b>
+        <button onclick="playGroup(31)" title="Play Group 31"><i class="fas fa-play"></i></button> &nbsp;
+        <button onclick="pauseGroup(31)" title="Pause Group 31"><i class="fas fa-pause"></i></button>
+        </p>
     </div>
 
     <div class="row" data-group="31">
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+                <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/media19.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">GameGen-X</p>
+        </div>
+      
+        <div class="col-gallery" style="margin-right: 1%;">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+                <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/media16.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">OpenSora-Plan</p>
+        </div>
+      
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+              <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/media14.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">OpenSora</p>
+        </div>
+      
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+              <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/media13.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">CogVideoX</p>
+        </div>
+      </div>
+
+    <div class="row" data-group="31">
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+                <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">GameGen-X</p>
+        </div>
+      
+        <div class="col-gallery" style="margin-right: 1%;">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+                <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">OpenSora-Plan</p>
+        </div>
+      
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+              <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new4.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">OpenSora</p>
+        </div>
+      
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+              <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new3.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">CogVideoX</p>
+        </div>
+      </div>
+
+    <div class="controls" data-group="32">
+      <p style="font-size: 1.25em" class="serif"><b style="font-size: 1.3em;">Open-domain Generation Comparision &nbsp;</b>
+      <button onclick="playGroup(32)" title="Play Group 31"><i class="fas fa-play"></i></button> &nbsp;
+      <button onclick="pauseGroup(32)" title="Pause Group 31"><i class="fas fa-pause"></i></button>
+      </p>
+  </div>
+   
+    <div class="row" data-group="32">
         <div class="col-gallery">
             <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
                 <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/media20.mp4" type="video/mp4">
@@ -678,7 +715,7 @@
         </div>
       </div>
 
-      <div class="row" data-group="31">
+      <div class="row" data-group="32">
         <div class="col-gallery">
             <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
                 <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/media25.mp4" type="video/mp4">
@@ -712,14 +749,117 @@
         </div>
       </div>
 
-    <div class="controls" data-group="32">
+      <div class="row" data-group="32">
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+                <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new11.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">GameGen-X</p>
+        </div>
+      
+        <div class="col-gallery" style="margin-right: 1%;">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+                <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new12.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">OpenSora-Plan</p>
+        </div>
+      
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+              <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new14.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">OpenSora</p>
+        </div>
+      
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+              <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new13.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">CogVideoX</p>
+        </div>
+      </div>
+
+
+      <div class="row" data-group="32">
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+                <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new31.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">GameGen-X</p>
+        </div>
+      
+        <div class="col-gallery" style="margin-right: 1%;">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+                <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new32.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">OpenSora-Plan</p>
+        </div>
+      
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+              <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new34.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">OpenSora</p>
+        </div>
+      
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+              <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new33.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">CogVideoX</p>
+        </div>
+      </div>
+
+      <div class="row" data-group="32">
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+                <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new21.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">GameGen-X</p>
+        </div>
+      
+        <div class="col-gallery" style="margin-right: 1%;">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+                <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new22.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">OpenSora-Plan</p>
+        </div>
+      
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+              <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new24.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">OpenSora</p>
+        </div>
+      
+        <div class="col-gallery">
+            <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
+              <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Gen/new23.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p style="text-align: center; margin-top: 0; width: 100%;">CogVideoX</p>
+        </div>
+      </div>
+
+    <div class="controls" data-group="33">
       <p style="font-size: 1.25em" class="serif"><b style="font-size: 1.3em;">Control Comparision &nbsp;</b>
-      <button onclick="playGroup(32)" title="Play Group 32"><i class="fas fa-play"></i></button> &nbsp;
-      <button onclick="pauseGroup(32)" title="Pause Group 32"><i class="fas fa-pause"></i></button>
+      <button onclick="playGroup(33)" title="Play Group 32"><i class="fas fa-play"></i></button> &nbsp;
+      <button onclick="pauseGroup(33)" title="Pause Group 32"><i class="fas fa-pause"></i></button>
       </p>
     </div>
 
-    <div class="row" data-group="32">
+    <div class="row" data-group="33">
       <div class="col-gallery">
           <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
             <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Com/media44.mp4" type="video/mp4">
@@ -753,7 +893,7 @@
       </div>
     </div>
 
-    <div class="row" data-group="32">
+    <div class="row" data-group="33">
         <div class="col-gallery">
             <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
                 <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Com/media45.mp4" type="video/mp4">
@@ -787,7 +927,7 @@
         </div>
       </div>
 
-      <div class="row" data-group="32">
+      <div class="row" data-group="33">
         <div class="col-gallery">
             <video style="width: 100%; border: 1px solid #000000;" controls loop class="no-fullscreen">
                 <source src="https://github.com/3A2077/3A2077.github.io/raw/main/videos/Comparision/Com/media46.mp4" type="video/mp4">
